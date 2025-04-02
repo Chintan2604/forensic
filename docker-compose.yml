@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  forensics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - DOCKER_BUILDKIT=1
+    image: forensic:latest
+    container_name: forensic
+    volumes:
+      - ./data:/data
+      - /tmp:/host/tmp
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
+    healthcheck:
+      test: ["CMD", "python3.9", "-c", "import volatility3; print('OK')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    environment:
+      - PATH=/opt/ExifTool:/opt/oletools:${PATH}
+    stdin_open: true
+    tty: true
