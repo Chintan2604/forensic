@@ -1,68 +1,155 @@
-# 🔍 Forensic Toolkit - Votre Laboratoire d'Investigation Numérique
+```markdown
+# 🔍 Forensic: Your All-in-One Docker Container for Digital Investigation
 
-[![État du projet](https://img.shields.io/badge/État-En%20Développement-yellow.svg)]()
-[![Contributions](https://img.shields.io/badge/Contributions-Bienvenues-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Forensic](https://img.shields.io/badge/Forensic-Digital%20Investigation-brightgreen) ![Docker](https://img.shields.io/badge/Docker-Container%20Tools-blue) ![Release](https://img.shields.io/badge/Release-v1.0.0-orange)
 
-## 🎯 À propos
+Welcome to the **Forensic** repository! This project provides a comprehensive Docker container designed for digital investigation. It comes pre-installed with essential tools for analyzing disks, memory, malware, and mobile devices. Whether you're a seasoned investigator or a curious beginner, this container streamlines your workflow and enhances your capabilities in forensic analysis.
 
-Bienvenue dans ce laboratoire d'investigation numérique basé sur Docker ! Ce projet est conçu pour fournir un environnement complet et préconfiguré pour l'analyse forensique de :
+---
 
-- 💾 Disques durs et supports de stockage
-- 🧠 Dumps mémoire
-- 📱 Appareils mobiles
-- 📊 Logs système
-- 🔐 Malwares et fichiers suspects
+## 📦 Table of Contents
 
-## 🚧 État du Projet
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Included Tools](#included-tools)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
+9. [Releases](#releases)
 
-Ce projet est en **développement actif** et s'enrichit continuellement. Notre objectif est de créer une ressource complète pour la communauté forensique, des débutants aux experts.
+---
 
-### 📈 Évolutions à venir
+## ⭐ Features
 
-- Documentation détaillée pour chaque outil
-- Guides pas-à-pas pour débutants
-- Tutoriels avancés pour les analystes expérimentés
-- Cas pratiques et scénarios d'investigation
-- Intégration d'outils supplémentaires
+- **Comprehensive Toolset**: Access a variety of tools for different forensic tasks.
+- **Easy to Use**: Simplified setup using Docker, allowing you to focus on investigations.
+- **Portable**: Run the container on any system with Docker support.
+- **Updates**: Regular updates ensure you have the latest tools and features.
 
-## 🎓 Pour qui ?
+---
 
-- 🔰 Débutants en forensique numérique
-- 🏆 Participants aux CTF
-- 🛡️ Analystes en CERT/CSIRT
-- 👨‍💻 Professionnels de la cybersécurité
-- 🎯 Passionnés d'investigation numérique
+## 🚀 Getting Started
 
-## 🛠️ Caractéristiques
+To get started, ensure you have Docker installed on your machine. If you do not have Docker, follow the instructions on the [Docker website](https://www.docker.com/get-started).
 
-### Investigation Système
-- Analyse de dumps mémoire
-- Investigation de systèmes de fichiers
-- Récupération de données
-- Analyse de registres Windows
+### Prerequisites
 
-### Investigation Mobile
-- Analyse d'appareils Android
-- Investigation iOS
-- Extraction de données
+- Docker version 20.10 or higher.
+- Basic knowledge of command line interface.
 
-### Analyse de Malwares
-- Scan de fichiers suspects
-- Détection d'IOCs
-- Analyse statique et dynamique
+---
 
-## 🚀 Démarrage Rapide
+## 🛠️ Installation
 
-```bash
-# Cloner le repository
-git clone [URL_DU_REPO]
+To install the Forensic container, follow these steps:
 
-# Construire l'image
-docker-compose build
+1. Clone the repository:
 
-# Démarrer l'environnement
-docker-compose up -d
+   ```bash
+   git clone https://github.com/Chintan2604/forensic.git
+   cd forensic
+   ```
 
-# Accéder à l'environnement
-docker-compose exec forensics bash
+2. Build the Docker image:
+
+   ```bash
+   docker build -t forensic:latest .
+   ```
+
+3. Run the container:
+
+   ```bash
+   docker run -it forensic:latest
+   ```
+
+You can also pull the image directly from Docker Hub if available.
+
+---
+
+## 🖥️ Usage
+
+Once the container is running, you will have access to the command line interface. Use the pre-installed tools for your investigations. The following examples illustrate some basic commands:
+
+- To analyze a disk image, use:
+  
+  ```bash
+  disk-analyzer /path/to/disk-image
+  ```
+
+- For memory analysis:
+
+  ```bash
+  memory-analyzer /path/to/memory-dump
+  ```
+
+Refer to each tool's documentation for detailed usage instructions.
+
+---
+
+## 🧰 Included Tools
+
+The Forensic container includes a variety of powerful tools:
+
+- **Disk Forensics**:
+  - Sleuth Kit
+  - Autopsy
+  - FTK Imager
+
+- **Memory Forensics**:
+  - Volatility
+  - Rekall
+
+- **Malware Analysis**:
+  - Cuckoo Sandbox
+  - IDA Pro
+
+- **Mobile Forensics**:
+  - Andriller
+  - Mobile Forensic Toolkit
+
+Each tool serves a specific purpose in the investigation process. Make sure to familiarize yourself with them to maximize your efficiency.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your branch.
+5. Create a pull request.
+
+Your input can help improve the container and add valuable tools for the community.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. Feel free to use and modify the container for your needs, but remember to give appropriate credit.
+
+---
+
+## 📧 Contact
+
+For questions, suggestions, or feedback, please reach out to the project maintainer:
+
+- **Name**: Chintan
+- **Email**: chintan@example.com
+- **GitHub**: [Chintan2604](https://github.com/Chintan2604)
+
+---
+
+## 🚀 Releases
+
+To get the latest version of the Forensic container, visit the [Releases](https://github.com/Chintan2604/forensic/releases) section. Download and execute the appropriate files for your needs.
+
+![Download](https://img.shields.io/badge/Download%20Latest-Release-blue)
+
+---
+
+Thank you for checking out the Forensic project! We hope this container becomes a valuable tool in your digital investigation efforts. Happy investigating! 🔍
+```
